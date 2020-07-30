@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "dataset-dc0d7": {
+      "hosting": {
+        "database": [
+          "dataset-dc0d7"
+        ]
+      }
+    }
+  }
+}

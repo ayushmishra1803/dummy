@@ -121,8 +121,16 @@
               "devServerTarget": "database:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "database"
+    }
+  },
+  "defaultProject": "database",
+  "cli": {
+    "analytics": false
+  }
 }
